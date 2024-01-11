@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles/styles.css"/>
+</head>
+<body>
+    <header class="menu_container flex"><!--Cabeçalho da Página-->
+        <div class="menu_content">
+            <a href="#">Landing Page</a>
+
+            <nav><!--Navegação - Menu-->
+                <ul class="menu_lista"><!--Lista Não Ordenada-->
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#contato">Contate Me</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main><!--Parte Principal da Página-->
+        <section id="home"> 
+            <article><!--Artigo, parte de uma informação maior-->
+                <h4>Bem Vinde!</h4>
+                <h1>Diferentes mundos para diferentes pessoas!</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut repellendus impedit, sed, deserunt doloribus laboriosam expedita illo a aperiam autem vel unde ipsum enim quas culpa, doloremque recusandae hic! Harum.
+                </p>
+
+                <a class= "btn" href="https://github.com/LuizIury" target="_blank">Explore</a>
+            </article>
+
+            <article>
+                <img src="assets/universo.svg" alt="Imagem Animada do Universo"/>
+            </article>
+        </section>
+
+        <section id="sobre">
+            <img src="https://avatars.githubusercontent.com/u/111030714?v=4" alt="Foto do Perfil do Github - Luiz Iury">
+            <article>
+                <h2>Quem sou eu?</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dicta illo, facilis ut eius, laudantium ab veniam fugit debitis in laboriosam illum sint distinctio ipsa sed alias maxime adipisci id cum.
+                </p>
+            </article>
+
+            <article>
+                <a class= "btn" href="https://github.com/LuizIury" target="_blank">Github
+                </a>
+                <p>1 Seguidor</p>
+                <p>16 Repositórios</p>
+            </article>
+        </section>
+
+        <section id="contato"><!--Seção da Área de Contato-->
+            <article><!--Artigo de Texto/Redes Sociais-->
+                <h4>Me Contate</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem eaque voluptas magnam, accusantium similique eveniet voluptatibus quaerat cum quae sed ad expedita. Dolores perspiciatis aliquam expedita itaque assumenda rerum illo.
+                </p>
+                <div><!--Ícone das Redes Sociais-->
+                   
+                    <a href="https://www.linkedin.com/in/luiziury/" target="_blank"><img src="assets/linkedin.svg" alt="Logo LinkedIn"></a>
+
+                    <a href="https://www.instagram.com/luiz_iury/" target="_blank"><img src="assets/instagram.svg" alt="Logo Instagram"></a>
+
+                    <a href="https://github.com/LuizIury" target="_blank"><img src="assets/github.svg" alt="Logo Github"></a>
+
+                </div>
+            </article>
+                <form>
+                    <label>Nome:</label>
+                    <input type="text" name="nome" placeholder="Digite seu nome!" required/>
+
+                    <label>Email:</label>
+                    <input type="email" name="email" placeholder="Digite seu E-mail!" required/>
+
+                    <label>Assunto:</label>
+                    <input type="text" name="assunto" placeholder="Qual o assunto?" required/>
+
+                    <label>Mensagem</label>
+                    <textarea name="mensagem" placeholder="Qual sua mensagem?"></textarea>
+
+                    <button class= "btn" type="submit">Enviar</button>
+                </form>
+
+        </section>
+    </main>
+    
+    <footer><!--Rodapé-->
+        Projeto feito com 🌊 por Luiz Iury -2024
+    </footer>
+
+</body>
+</html>
